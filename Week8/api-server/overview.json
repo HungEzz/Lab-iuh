@@ -1,0 +1,31 @@
+{
+    "overview":
+    [
+        {
+      "title": "Turnover",
+      "value": 92405,
+      "unit": "$",
+      "change": 5.39,
+      "img": "/Button 1509.png"
+    },
+    {
+      "title": "Profit",
+      "value": 32218,
+      "unit": "$",
+      "change": 5.39,
+      "img":"/Button 1529.png"
+    },
+    {
+      "title": "New customer",
+      "value": 298,
+      "unit": "",
+      "change": 6.84,
+      "img": "/Button 1530.png"
+    }
+    ]
+    
+  }
+
+
+
+  

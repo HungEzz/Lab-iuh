@@ -1,0 +1,97 @@
+{
+    "summerRecipes": [
+      {
+        "id": 1,
+        "image": "/Italian-style tomato.png",
+        "title": "Italian-style tomato salad",
+        "time": "16 minutes"
+      },
+      {
+        "id": 2,
+        "image": "/Vegetable and shrimp spaghetti.png",
+        "title": "Spaghetti with vegetables and shrimp",
+        "time": "15 minutes"
+      },
+      {
+        "id": 3,
+        "image": "/Lotus delight salad.png",
+        "title": "Lotus delight salad",
+        "time": "20 minutes"
+      },
+      {
+        "id": 4,
+        "image": "/Snack cakes.png",
+        "title": "Snack cakes",
+        "time": "21 minutes"
+      }
+    ],
+
+    "videoRecipes": [
+      {
+        "id": 1,
+        "image": "/Salad with cabbage.png",
+        "title": "Salad with cabbage and shrimp",
+        "time": "32 minutes"
+      },
+      {
+        "id": 2,
+        "image": "/Bean, shrimp, and potato salad.png",
+        "title": "Salad of cove beans, shrimp and potatoes",
+        "time": "20 minutes"
+      },
+      {
+        "id": 3,
+        "image": "/Sunny-side up fried eggs.png",
+        "title": "Sunny-side up fried egg",
+        "time": "15 minutes"
+      },
+      {
+        "id": 4,
+        "image": "/Lotus delight salad_01.png",
+        "title": "Lotus delight salad",
+        "time": "26 minutes"
+      } 
+    ],
+
+      "editorPicks": [
+        {
+          "id": 1,
+          "image": "/stuffed-rice-ball.png",
+          "title": "Stuffed sticky rice ball",
+          "time": "24 minutes",
+          "authorName": "Jennifer King",
+          "authorAvatar": "/avatar.png",
+          "description": "A delightful Asian treat with chewy, glutinous rice and a flavorful surprise filling..."
+        },
+        {
+          "id": 2,
+          "image": "/strawberry-smoothie.png",
+          "title": "Strawberry smoothie",
+          "time": "40 minutes",
+          "authorName": "Matthew Martinez",
+          "authorAvatar": "/Avatar (1).png",
+          "description": "Savor the refreshing delight of a strawberry smoothie. Made with ripe strawberries, this creamy blend offers..."
+        },
+        {
+          "id": 3,
+          "image": "/latte-art.png",
+          "title": "Latte Art",
+          "time": "18 minutes",
+          "authorName": "Sarah Hill",
+          "authorAvatar": "/Avatar (4).png",
+          "description": "Latte art is the skillful craft of creating captivating designs on the surface of a latte..."
+        },
+        {
+          "id": 4,
+          "image": "/butter-fried-noodles.png",
+          "title": "Butter fried noodles",
+          "time": "16 minutes",
+          "authorName": "Julia Lopez",
+          "authorAvatar": "/Avatar (5).png",
+          "description": "Butter fried noodles: Savory noodles cooked in butter for a delicious and satisfying meal..."
+        }
+      ]
+
+      
+    
+  }

@@ -1,0 +1,121 @@
+{
+  "customer": [
+    {
+      "id": "1",
+      "avatar": "Avatar.png",
+      "customerName": "Elizabeth Lee",
+      "company": "Amazon",
+      "orderValue": "130000000",
+      "orderDate": "10/07/2023",
+      "status": "New"
+    },
+    {
+      "id": "2",
+      "avatar": "Avatar (4).png",
+      "customerName": "Carlos Garcia",
+      "company": "SmoozeShift",
+      "orderValue": "7777",
+      "orderDate": "24/07/2023",
+      "status": "Completed"
+    },
+    {
+      "id": "3",
+      "avatar": "Avatar (3).png",
+      "customerName": "Elizabeth Bailey",
+      "company": "Prime Time Telecom",
+      "orderValue": "1000",
+      "orderDate": "2023-09-09",
+      "status": "Completed"
+    },
+    {
+      "id": "4",
+      "avatar": "Avatar (5).png",
+      "customerName": "Ryan Brown",
+      "company": "OmniTech Corporation",
+      "orderValue": "54100",
+      "orderDate": "31/08/2023",
+      "status": "In-progress"
+    },
+    {
+      "id": "5",
+      "avatar": "Avatar (4).png",
+      "customerName": "Ryan Young",
+      "company": "DataStream Inc.",
+      "orderValue": 769,
+      "orderDate": "01/05/2023",
+      "status": "Completed"
+    },
+    {
+      "id": "6",
+      "avatar": "Avatar (5).png",
+      "customerName": "Hailey Adams",
+      "company": "FlowRush",
+      "orderValue": 922,
+      "orderDate": "10/06/2023",
+      "status": "Completed"
+    },
+    {
+      "id": "7",
+      "avatar": "Avatar 313.png",
+      "customerName": "Thomas Nguyen",
+      "company": "TechNova",
+      "orderValue": 680,
+      "orderDate": "15/09/2023",
+      "status": "New"
+    },
+    {
+      "id": "8",
+      "avatar": "Avatar (5).png",
+      "customerName": "Linda Park",
+      "company": "BrightWorks",
+      "orderValue": 450,
+      "orderDate": "28/07/2023",
+      "status": "Completed"
+    },
+    {
+      "id": "9",
+      "avatar": "Avatar (4).png",
+      "customerName": "Jason Tran",
+      "company": "NeoConnect",
+      "orderValue": 812,
+      "orderDate": "03/08/2023",
+      "status": "In-progress"
+    },
+    {
+      "id": "10",
+      "avatar": "Avatar (3).png",
+      "customerName": "Sophia Kim",
+      "company": "NextGenComms",
+      "orderValue": 699,
+      "orderDate": "20/07/2023",
+      "status": "Completed"
+    },
+    {
+      "id": "11",
+      "avatar": "Avatar 313.png",
+      "customerName": "Daniel Smith",
+      "company": "UrbanSolutions",
+      "orderValue": 395,
+      "orderDate": "12/06/2023",
+      "status": "New"
+    },
+    {
+      "id": "5bd0",
+      "customerName": "Phạm Minh Châu",
+      "avatar": "Avatar (4).png",
+      "company": "Amazon",
+      "orderValue": "20000",
+      "orderDate": "2025-04-16",
+      "status": "New"
+    },
+    {
+      "id": "6d99",
+      "customerName": "ewqe",
+      "avatar": "Avatar (4).png",
+      "company": "qwe",
+      "orderValue": "232",
+      "orderDate": "2025-04-20",
+      "status": "New"
+    }
+  ]
+}

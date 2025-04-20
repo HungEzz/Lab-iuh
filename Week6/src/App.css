@@ -1,0 +1,248 @@
+:root {
+  --primary: #646cff;
+  --primary-hover: #4f46e5;
+  --secondary: #f87171;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --dark: #27272a;
+  --light: #f3f4f6;
+  --card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --border-radius: 0.5rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  background-color: #f9fafb;
+  color: var(--dark);
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  color: var(--primary);
+  font-size: 2.5rem;
+}
+
+.component-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+/* Card Styles */
+.counter-card,
+.name-card,
+.expandable-card,
+.cart-card {
+  background-color: white;
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.counter-card:hover,
+.name-card:hover,
+.expandable-card:hover,
+.cart-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--primary);
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+}
+
+/* Button Styles */
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btn.decrease {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.btn.increase {
+  background-color: var(--success);
+  color: white;
+}
+
+.btn.reset {
+  background-color: var(--warning);
+  color: white;
+}
+
+.btn.submit,
+.btn.add {
+  background-color: var(--primary);
+  color: white;
+}
+
+.btn.clear,
+.btn.remove {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.btn.toggle-btn {
+  background-color: var(--primary);
+  color: white;
+  align-self: flex-start;
+  margin-top: 0.5rem;
+}
+
+/* Counter Component */
+.counter-display {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 1rem 0;
+  color: var(--dark);
+}
+
+.counter-actions {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+/* Name Component */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.name-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.greeting {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.greeting h3 {
+  color: var(--success);
+}
+
+/* Expandable Content */
+.content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.preview-text {
+  line-height: 1.6;
+}
+
+.expanded-content {
+  animation: fadeIn 0.3s ease-in;
+}
+
+/* Shopping Cart */
+.cart-items {
+  margin-top: 1rem;
+  flex-grow: 1;
+}
+
+.cart-items ul {
+  list-style: none;
+  margin-top: 0.5rem;
+}
+
+.cart-items li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.empty-cart {
+  text-align: center;
+  color: #9ca3af;
+  font-style: italic;
+}
+
+/* Form Elements */
+input {
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  width: 100%;
+}
+
+input:focus {
+  outline: 2px solid var(--primary);
+  border-color: transparent;
+}
+
+footer {
+  margin-top: 3rem;
+  text-align: center;
+  color: #6b7280;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .component-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .app-container {
+    padding: 1rem;
+  }
+}
+
